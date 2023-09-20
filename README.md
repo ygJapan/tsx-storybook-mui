@@ -24,6 +24,35 @@ init: 〇〇のインストール
 ### 参考
 https://www.conventionalcommits.org/ja/v1.0.0/
 
+# Gitについて
+
+## ブランチルール
+命名規則： `テーマ/コンポーネントや何をするか-(少し詳しく書く場合)-担当者名`
+例)
+・feat/Button-create-ugo
+・fix/Button-props-onigiri
+・init/eslint-ugo
+
+## Command
+### ローカルのmasterブランチにリモートのmasterブランチを落とす際の手順
+```
+// １，masterブランチに移動する
+git checkout master
+
+// ２，リモートのmasterブランチをpullしてくる
+git pull origin master
+```
+
+### 作業中のブランチにマスターの状態を取り込むコマンド
+```
+// １，作業中ブランチに移動する
+git checkout 作業中ブランチ名
+
+// ローカルのmasterを作業中ブランチにマージ(結合)する
+git merge master
+```
+
+
 # VScode拡張機能
 ## Prettier ESLint
 ```
