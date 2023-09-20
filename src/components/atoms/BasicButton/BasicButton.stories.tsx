@@ -4,7 +4,7 @@ import BasicButton from "./BasicButton";
 export default {
   component: BasicButton,
   args: {
-    children: 'buton',
+    children: 'button',
   },
 } as Meta<typeof BasicButton>;
 

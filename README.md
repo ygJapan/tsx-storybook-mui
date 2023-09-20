@@ -1,3 +1,29 @@
+# Command
+```shell
+# Start Storybook
+yarn storybook
+```
+
+# commit rule
+
+## 機能の追加や作成
+```
+feat: 〇〇の追加
+```
+
+## 修正関連
+```
+fix: 〇〇のタイポを修正
+```
+
+## 初期設定関連
+```
+init: 〇〇のインストール
+```
+
+### 参考
+https://www.conventionalcommits.org/ja/v1.0.0/
+
 <p align="center">
   <a href="https://www.chromatic.com/">
     <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="60" />
