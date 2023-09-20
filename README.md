@@ -29,9 +29,11 @@ https://www.conventionalcommits.org/ja/v1.0.0/
 ## ブランチルール
 命名規則： `テーマ/コンポーネントや何をするか-(少し詳しく書く場合)-担当者名`
 例)
-・feat/Button-create-ugo
-・fix/Button-props-onigiri
-・init/eslint-ugo
+```
+feat/Button-create-ugo
+fix/Button-props-onigiri
+init/eslint-ugo
+```
 
 ## Command
 ### ローカルのmasterブランチにリモートのmasterブランチを落とす際の手順
