@@ -24,6 +24,17 @@ init: 〇〇のインストール
 ### 参考
 https://www.conventionalcommits.org/ja/v1.0.0/
 
+# VScode拡張機能
+## Prettier ESLint
+```
+名前: Prettier ESLint
+ID: rvest.vs-code-prettier-eslint
+説明: A Visual Studio Extension to format JavaScript and Typescript code using prettier-eslint package
+バージョン: 5.1.0
+パブリッシャー: Rebecca Vest
+VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint
+```
+
 <p align="center">
   <a href="https://www.chromatic.com/">
     <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="60" />
